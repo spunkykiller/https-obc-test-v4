@@ -8,7 +8,7 @@ export default function Home() {
       <Amenities />
 
       {/* WeWork Style Locations CTA Section */}
-      <section className="py-24 bg-text-charcoal text-background-white">
+      <section id="centres" className="py-24 bg-text-charcoal text-background-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-[url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center bg-blend-overlay bg-black/80 py-24 rounded-lg shadow-2xl relative overflow-hidden">
           <div className="absolute inset-0 border-4 border-primary m-4 md:m-8 opacity-20 pointer-events-none"></div>
           <h2 className="font-serif text-3xl md:text-5xl font-bold mb-6 relative z-10">
