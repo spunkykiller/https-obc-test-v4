@@ -4,15 +4,15 @@ import Image from 'next/image';
 
 // Using high-quality SVG logos of popular companies to give a premium feel
 const CLIENTS = [
-    { name: 'GSS', logo: '/client-logos-final/GSS-removebg-preview.png' },
-    { name: 'Gogardenman', logo: '/client-logos-final/Gogardenman-removebg-preview.png' },
-    { name: 'Kotak', logo: '/client-logos-final/Kotak-removebg-preview.png' },
-    { name: 'Risinglane', logo: '/client-logos-final/Risinglane-removebg-preview.png' },
+    { name: 'GSS', logo: '/client-logos-final/GSS-removebg-preview.png', className: 'w-[220px] h-[100px]' },
+    { name: 'Gogardenman', logo: '/client-logos-final/Gogardenman-removebg-preview.png', className: 'w-[220px] h-[100px]' },
+    { name: 'Kotak', logo: '/client-logos-final/Kotak-removebg-preview.png', className: 'w-[220px] h-[100px]' },
+    { name: 'Risinglane', logo: '/client-logos-final/Risinglane-removebg-preview.png', className: 'w-[220px] h-[100px]' },
     { name: 'Venturiq', logo: '/client-logos-final/venturiq_logo.jpg' },
     { name: 'Trovity', logo: '/client-logos-final/Trovity-Logo-removebg-preview.png' },
     { name: 'Bilander', logo: '/client-logos-final/bilander.png' },
     { name: 'LG', logo: '/client-logos-final/lg_new.png' },
-    { name: 'Company 9', logo: '/client-logos-final/243203892_454314465882038_1533476976429623912_n.jpg' },
+    { name: 'Company 9', logo: '/client-logos-final/243203892_454314465882038_1533476976429623912_n.jpg', className: 'w-[220px] h-[100px]' },
 ];
 
 export default function OurClients() {
@@ -40,7 +40,7 @@ export default function OurClients() {
                 <div className="animate-marquee flex whitespace-nowrap items-center py-4">
                     {/* Double the array for seamless infinite scroll */}
                     {[...CLIENTS, ...CLIENTS].map((client, index) => (
-                        <div key={index} className="mx-8 lg:mx-16 flex items-center justify-center transition-all duration-500 hover:scale-105 relative w-[180px] h-[80px]">
+                        <div key={index} className={`mx-8 lg:mx-16 flex items-center justify-center transition-all duration-500 hover:scale-105 relative ${client.className || 'w-[180px] h-[80px]'}`}>
                             <Image
                                 src={client.logo}
                                 alt={client.name}
