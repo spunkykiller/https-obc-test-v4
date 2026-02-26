@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useModal } from '@/context/ModalContext';
 import {
     Bars3Icon,
@@ -65,8 +66,9 @@ export default function Header() {
 
                     {/* Logo Zone */}
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="font-serif text-2xl font-bold tracking-tight text-text-black">
-                            <span className="text-primary">Orange</span> <span className="hidden sm:inline">Business Centre</span>
+                        <Link href="/" className="flex items-center gap-3 font-serif text-2xl font-bold tracking-tight text-text-black">
+                            <Image src="/Orange_Business_centre_V1.png" alt="Orange Business Centre Logo" width={50} height={50} className="object-contain" />
+                            <span><span className="text-primary">Orange</span> <span className="hidden sm:inline">Business Centre</span></span>
                         </Link>
                     </div>
 
@@ -74,6 +76,10 @@ export default function Header() {
                     <nav className="hidden md:flex space-x-8">
                         <Link href="/about" className="text-text-charcoal hover:text-primary transition font-medium text-sm pt-2">
                             About Us
+                        </Link>
+
+                        <Link href="/gallery" className="text-text-charcoal hover:text-primary transition font-medium text-sm pt-2">
+                            Gallery
                         </Link>
 
                         {/* Workspaces Mega Menu Trigger */}
@@ -200,6 +206,10 @@ export default function Header() {
                     <div className="px-4 pt-2 pb-6 space-y-1">
                         <Link href="/about" className="block px-3 py-4 text-base font-semibold text-text-charcoal border-b border-border-light" onClick={() => setIsMobileMenuOpen(false)}>
                             About Us
+                        </Link>
+
+                        <Link href="/gallery" className="block px-3 py-4 text-base font-semibold text-text-charcoal border-b border-border-light" onClick={() => setIsMobileMenuOpen(false)}>
+                            Gallery
                         </Link>
 
                         <div className="px-3 py-4 border-b border-border-light">

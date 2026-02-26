@@ -58,42 +58,42 @@ export default function NavratnaLocationPage() {
                             <h3 className="text-sm font-bold text-text-muted uppercase tracking-widest mb-8">Included Amenities</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-12">
                                 {/* Amenity Item */}
-                                <div className="flex items-start">
-                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                                <div className="flex items-start group cursor-pointer transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-dark" />
                                     <div className="ml-4">
-                                        <h4 className="font-bold text-text-black mb-1">Premium IT Infrastructure</h4>
+                                        <h4 className="font-bold text-text-black mb-1 transition-colors duration-300 group-hover:text-primary">Premium IT Infrastructure</h4>
                                         <p className="text-sm text-text-muted">Enterprise-grade Wi-Fi and secure wired connections.</p>
                                     </div>
                                 </div>
                                 {/* Amenity Item */}
-                                <div className="flex items-start">
-                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                                <div className="flex items-start group cursor-pointer transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-dark" />
                                     <div className="ml-4">
-                                        <h4 className="font-bold text-text-black mb-1">Executive Lounges</h4>
+                                        <h4 className="font-bold text-text-black mb-1 transition-colors duration-300 group-hover:text-primary">Executive Lounges</h4>
                                         <p className="text-sm text-text-muted">Sophisticated common areas for networking and breaks.</p>
                                     </div>
                                 </div>
                                 {/* Amenity Item */}
-                                <div className="flex items-start">
-                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                                <div className="flex items-start group cursor-pointer transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-dark" />
                                     <div className="ml-4">
-                                        <h4 className="font-bold text-text-black mb-1">24/7 Access & Security</h4>
+                                        <h4 className="font-bold text-text-black mb-1 transition-colors duration-300 group-hover:text-primary">24/7 Access & Security</h4>
                                         <p className="text-sm text-text-muted">Biometric entry and comprehensive CCTV surveillance.</p>
                                     </div>
                                 </div>
                                 {/* Amenity Item */}
-                                <div className="flex items-start">
-                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                                <div className="flex items-start group cursor-pointer transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-dark" />
                                     <div className="ml-4">
-                                        <h4 className="font-bold text-text-black mb-1">On-site Parking</h4>
+                                        <h4 className="font-bold text-text-black mb-1 transition-colors duration-300 group-hover:text-primary">On-site Parking</h4>
                                         <p className="text-sm text-text-muted">Dedicated, secure parking spaces available for members.</p>
                                     </div>
                                 </div>
                                 {/* Amenity Item */}
-                                <div className="flex items-start">
-                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                                <div className="flex items-start group cursor-pointer transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+                                    <SparklesIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-dark" />
                                     <div className="ml-4">
-                                        <h4 className="font-bold text-text-black mb-1">Boardroom Access</h4>
+                                        <h4 className="font-bold text-text-black mb-1 transition-colors duration-300 group-hover:text-primary">Boardroom Access</h4>
                                         <p className="text-sm text-text-muted">Fully equipped meeting rooms with video conferencing.</p>
                                     </div>
                                 </div>

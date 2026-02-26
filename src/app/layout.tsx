@@ -3,6 +3,7 @@ import { Instrument_Serif, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import OurClients from "@/components/ui/OurClients";
 import FloatingActions from "@/components/ui/FloatingActions";
 import { ModalProvider } from "@/context/ModalContext";
 import ContactModal from "@/components/ui/ContactModal";
@@ -36,6 +37,7 @@ export default function RootLayout({
           <main className="flex-grow">
             {children}
           </main>
+          <OurClients />
           <FloatingActions />
           <Footer />
           <ContactModal />

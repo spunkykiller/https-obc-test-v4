@@ -117,9 +117,9 @@ export default function SmartCityLocation() {
                             <h2 className="font-serif text-3xl font-bold text-text-black mb-8">Included Amenities</h2>
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-y-10 gap-x-6">
                                 {LOCATION_AMENITIES.map((amenity) => (
-                                    <div key={amenity.title} className="flex items-center">
-                                        <amenity.icon className="h-8 w-8 text-primary mr-4" />
-                                        <span className="text-text-black font-medium">{amenity.title}</span>
+                                    <div key={amenity.title} className="flex items-center group cursor-pointer transition-transform duration-300 hover:scale-105">
+                                        <amenity.icon className="h-8 w-8 text-primary mr-4 transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-dark" />
+                                        <span className="text-text-black font-medium transition-colors duration-300 group-hover:text-primary">{amenity.title}</span>
                                     </div>
                                 ))}
                             </div>

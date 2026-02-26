@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Instagram, Facebook, Linkedin } from 'lucide-react';
 
 export default function Footer() {
@@ -9,8 +10,9 @@ export default function Footer() {
 
                     {/* Brand Column */}
                     <div className="col-span-1">
-                        <Link href="/" className="font-serif text-3xl font-bold tracking-tight text-text-black inline-block mb-4">
-                            <span className="text-primary">Orange</span> <br />Business Centre
+                        <Link href="/" className="flex items-center gap-3 font-serif text-3xl font-bold tracking-tight text-text-black mb-4">
+                            <Image src="/Orange_Business_centre_V1.png" alt="Orange Business Centre Logo" width={60} height={60} className="object-contain" />
+                            <div><span className="text-primary">Orange</span> <br />Business Centre</div>
                         </Link>
                         <p className="text-sm text-text-muted mt-2">
                             Premium responsive luxury coworking spaces in Visakhapatnam.
@@ -43,7 +45,7 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/locations/harbour" className="text-sm text-text-muted hover:text-primary transition">
+                                <Link href="/locations/harbour-park" className="text-sm text-text-muted hover:text-primary transition">
                                     Harbour Park Rd
                                 </Link>
                             </li>
