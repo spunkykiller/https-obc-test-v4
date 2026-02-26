@@ -6,7 +6,7 @@ import Image from 'next/image';
 const CLIENTS = [
     { name: 'GSS', logo: '/client-logos-final/GSS-removebg-preview.png', className: 'w-[220px] h-[100px]' },
     { name: 'Gogardenman', logo: '/client-logos-final/Gogardenman-removebg-preview.png', className: 'w-[220px] h-[100px]' },
-    { name: 'Kotak', logo: '/client-logos-final/Kotak-removebg-preview.png', className: 'w-[220px] h-[100px]' },
+    { name: 'Kotak', logo: '/client-logos-final/Kotak-removebg-preview.png', className: 'w-[280px] h-[130px]' },
     { name: 'Risinglane', logo: '/client-logos-final/Risinglane-removebg-preview.png', className: 'w-[220px] h-[100px]' },
     { name: 'Venturiq', logo: '/client-logos-final/venturiq_logo.jpg' },
     { name: 'Trovity', logo: '/client-logos-final/Trovity-Logo-removebg-preview.png' },
