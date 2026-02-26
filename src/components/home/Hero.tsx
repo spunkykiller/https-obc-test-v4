@@ -31,7 +31,7 @@ export default function Hero() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <Link href="#centres" className="bg-primary hover:bg-primary-dark text-background-white px-8 py-4 text-base font-semibold transition-all flex items-center justify-center group">
+                        <Link href="/centres" className="bg-primary hover:bg-primary-dark text-background-white px-8 py-4 text-base font-semibold transition-all flex items-center justify-center group">
                             Explore Spaces
                             <ArrowLongRightIcon className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
                         </Link>

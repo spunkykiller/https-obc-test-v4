@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hero from "@/components/home/Hero";
 import Amenities from "@/components/home/Amenities";
 
@@ -17,9 +18,9 @@ export default function Home() {
           <p className="max-w-2xl mx-auto text-lg text-border-light mb-10 relative z-10">
             From the bustling Smart City Building to the exclusive Naval Trade Center, find the perfect space for your business to thrive in Visakhapatnam.
           </p>
-          <button className="bg-primary hover:bg-primary-dark text-background-white px-8 py-4 text-base font-semibold transition-all relative z-10 shadow-lg hover:-translate-y-1">
+          <Link href="/centres" className="bg-primary hover:bg-primary-dark text-background-white px-8 py-4 text-base font-semibold transition-all relative z-10 shadow-lg hover:-translate-y-1 inline-block">
             Browse All Centres
-          </button>
+          </Link>
         </div>
       </section>
     </div>
